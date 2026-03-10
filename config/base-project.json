@@ -1,0 +1,36 @@
+{
+  "codeStyle": "typescript",
+  "formatting": {
+    "indentStyle": "spaces",
+    "indentSize": 2,
+    "lineWidth": 100,
+    "quotes": "double",
+    "semicolons": true,
+    "trailingComma": true
+  },
+  "structure": {
+    "srcDir": "src/",
+    "testDir": "tests/",
+    "docsDir": "docs/",
+    "configDir": "config/"
+  },
+  "git": {
+    "defaultBranch": "main",
+    "commitStyle": "conventional",
+    "prTemplate": true,
+    "issueTemplates": true
+  },
+  "testing": {
+    "framework": "vitest",
+    "coverageTarget": 80,
+    "preCommitHooks": true
+  },
+  "ci": {
+    "provider": "github-actions",
+    "autoTest": true,
+    "autoDeploy": false
+  },
+  "owner": "TWOSKI7",
+  "githubOrg": "",
+  "license": "MIT"
+}
